@@ -1,0 +1,26 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      },
+      "ja-space-between-half-and-full-width": {
+        "space": "always"
+      }
+    },
+    "preset-ja-technical-writing": {
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
+      "ja-no-successive-word": false,
+      "ja-no-mixed-period": false
+    },
+    "ja-space-around-link": {
+      "before": true,
+      "after": true
+    }
+  }
+}
