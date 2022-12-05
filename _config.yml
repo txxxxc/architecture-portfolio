@@ -1,6 +1,5 @@
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman
 plugins:
   - jekyll-remote-theme
-
 title: architecture-portfolio
 description: 自分で設計したアーキテクチャと思考の記録
