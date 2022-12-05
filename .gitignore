@@ -1,4 +1,4 @@
 node_modules 
 _site
 .bundle
-vendor/bundle
+vendor
