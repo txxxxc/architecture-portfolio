@@ -57,32 +57,38 @@ Nuxt3 によってデフォルトで提供されているディレクトリと�
 	- cookie の取得
 - libs にあるモジュールをアクセスするモジュール
 	- API Client の初期化
+
 [composables/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/composables)
 
 ### layouts
 
 ページの枠組みとなるレイアウトを格納します。
+
 [layouts/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/layouts)
 
 ### middleware
 
 画面遷移時に発動するルーティング処理を記述するミドルウェアを格納します。
+
 [middleware/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/middleware)
 
 ### pages
 
 ページを格納します。
+
 [pages/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/pages)
 
 ### plugins
 
 アプリケーションの初期化時に起動するプラグインを格納します。
+
 [plugins/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/plugins)
 
 ### utils
 
 便利関数を生やします。
 例：スネークケースをキャメルケースに変換するなど
+
 [utils/ · Nuxt Directory Structure](https://nuxt.com/docs/guide/directory-structure/utils)
 
 ## 独自に生やしたディレクトリ
