@@ -1,0 +1,22 @@
+{
+  "name": "architecture-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/txxxxc/zenn-articles.git",
+  "author": "txxxxc <tt.ios.develop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.1.132"
+  },
+  "devDependencies": {
+    "textlint": "^12.2.3",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-space-around-link": "^2.2.0",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
