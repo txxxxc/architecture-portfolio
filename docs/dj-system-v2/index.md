@@ -1,6 +1,6 @@
 # DJ System v2
 
-DJ System v2 のアーキテクチャです。
+[DJ System v2](https://github.com/lit-kansai/dj-system-admin) のアーキテクチャです。
 
 ## 目次
 - [DJ System v2](#dj-system-v2)
@@ -20,12 +20,14 @@ DJ System v2 のアーキテクチャです。
 		- [libs](#libs)
 		- [features](#features)
 		- [schemas](#schemas)
-	- [Q\&A](#qa)
 	- [使用するライブラリ](#使用するライブラリ)
 		- [Vuetify](#vuetify)
-		- [Zod](#zod)
 		- [Zodios](#zodios)
 	- [その他規約](#その他規約)
+	- [Q\&A](#qa)
+		- [DTOはどこでやるの？](#dtoはどこでやるの)
+		- [usecaseはいらない？](#usecaseはいらない)
+		- [zodios vs aspida](#zodios-vs-aspida)
 
 
 ## 使用するフレームワーク
@@ -137,7 +139,6 @@ Nuxt3 によってデフォルトで提供されているディレクトリと�
 
 [zodios](https://github.com/astahmer/openapi-zod-client) によって自動生成される部分。
 
-## Q&A
 
 ## 使用するライブラリ
 
@@ -156,7 +157,6 @@ Vuetify を使うことの利点として以下の 2 点が挙げられます。
 
 管理画面の目的と Vuetify の利点がマッチしていると考え今回は Vuetify を採用しました。
 
-### Zod
 
 Zod は TypeScript バリデーションライブラリです。
 フォームのバリデーションやその他にも方のついていないオブジェクトを型安全に扱えるということで採用しました。
@@ -170,3 +170,11 @@ Zodios を使うことによって型安全で快適に API 通信周りのコ�
 ## その他規約
 
 細かいコーディング規約は [こちら](./coding-rules.md)
+
+## Q&A
+
+### DTOはどこでやるの？
+
+### usecaseはいらない？
+
+### zodios vs aspida
