@@ -20,6 +20,7 @@
 		- [libs](#libs)
 		- [features](#features)
 		- [schemas](#schemas)
+		- [tests](#tests)
 	- [使用するライブラリ](#使用するライブラリ)
 		- [Vuetify](#vuetify)
 		- [Zodios](#zodios)
@@ -60,6 +61,7 @@ src/
 ├─ features // ドメインに紐づく部分をまとめる。
 ├─ libs // ライブラリに依存する部分を隠蔽する。
 ├─ schemas // スキーマを保存する。zodiosで自動生成する。
+├─ tests // テストを格納する。
 ```
 
 ## 標準で提供されているディレクトリ
@@ -138,6 +140,11 @@ Nuxt3 によってデフォルトで提供されているディレクトリと�
 ### schemas
 
 [zodios](https://github.com/astahmer/openapi-zod-client) によって自動生成される部分。
+
+### tests
+
+E2E テストなど複数のモジュールを横断して行われるテストはここに格納します。
+ユニットテストに関しては対象のファイルと同じ階層に億想定です。
 
 
 ## 使用するライブラリ
